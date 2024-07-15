@@ -1,0 +1,59 @@
+/* Cores para cada seção 
+
+
+Use um container que envolva o <nav>, <main> e <footer>.
+Defina o container como um flex container com display: flex e min-height: 100dvh;
+Aplique flex-grow: 1 ao <main> para que ele ocupe o espaço restante.
+Isso garantirá que o <main> preencha a tela, mas ainda respeite os outros elementos.
+
+
+
+
+
+
+*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    height: 40px;
+  }
+  
+main {
+    background-color: #ff0000; /* Cinza claro */
+
+
+    flex-grow: 1;
+
+    width: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer {
+    background-color: #2196F3; /* Azul */
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+.adiv{
+    width: 750px;
+    height: 750px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
